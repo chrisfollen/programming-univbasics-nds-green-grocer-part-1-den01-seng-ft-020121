@@ -32,7 +32,6 @@ def consolidate_cart(cart)
     end
     i += 1
   end
-  puts cart_out
   cart_out
 end
 
