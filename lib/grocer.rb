@@ -30,6 +30,7 @@ def consolidate_cart(cart)
       temp_index = cart_out.find_index{|x| x[:item]==name}
       cart_out[temp_index][:count] += 1 
     end
+    i += 1
   end
   cart_out
 end
