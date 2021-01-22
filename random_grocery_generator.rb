@@ -22,6 +22,7 @@ def coupons
 	]
 end
 
+
 def generate_cart
 	[].tap do |cart|
 		rand(20).times do
